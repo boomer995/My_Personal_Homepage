@@ -4,7 +4,7 @@ export default function header() {
       <span className="text-white text-[34px] font-bold">
         My Personal Homepage
       </span>
-      <div className="w-1/3 flex justify-evenly text-18">
+      <div className="w-1/3 flex justify-around text-18">
         <span className="text-white">ABOUT</span>
         <span className="text-white">WHAT I DO</span>
         <span className="text-white">WORK</span>

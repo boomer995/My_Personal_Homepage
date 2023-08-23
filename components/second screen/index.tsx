@@ -2,11 +2,11 @@ import ImageBox from "../second screen/image";
 
 export default function SecondScreen() {
   return (
-    <div className=" h-[200px] flex justify-center mt-[106px]">
-      <div className="w-[400px] h-[290px] border-2 border-white rounded-br-[20px]">
+    <div className="flex mt-[106px] w-[1140px] justify-between">
+      <div className="w-[525.977px] h-[380.248px] border-2 border-white rounded-br-[20px]">
         <ImageBox />
       </div>
-      <div className="w-[400px] h-[290px] ml-[50px]">
+      <div className="w-[580px] h-[290px] ml-[50px]">
         <p className="text-[#4C70EF] text-[24px]">ABOUT ME</p>
         <p className="text-[#FFF] text-[36px]">I'm Tian Haipeng</p>
         <p className="text-[#B0ADAD] text-[18px]">
