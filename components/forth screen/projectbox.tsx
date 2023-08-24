@@ -11,7 +11,7 @@ export default function ProjectBox(props: Props) {
     window.open(props.url);
   }
   return (
-    <div className="bg-[#292C36] rounded-t-lg mt-[32px] ml-[20px]">
+    <div className="bg-[#292C36] rounded-t-lg mt-[32px] ml-[20px]" id="img">
       <div>
         <img
           src={props.img}

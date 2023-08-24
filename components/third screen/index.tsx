@@ -3,6 +3,7 @@ import ContentBox from "./content";
 export default function ThirdScreen() {
   let info = [
     {
+      id: 1,
       title: "SPECIALIZING IN",
       img: "/web-development.svg",
       content:
@@ -10,6 +11,7 @@ export default function ThirdScreen() {
       post: "Front-end Development",
     },
     {
+      id: 2,
       title: "INTEREST",
       img: "/technology.svg",
       content:
@@ -18,8 +20,8 @@ export default function ThirdScreen() {
     },
   ];
 
-  const contentBoxes = info.map((item) => ( 
-    <ContentBox key={item.post} {...item} />
+  const contentBoxes = info.map((item) => (
+    <ContentBox key={item.id} {...item} />
   ));
 
   return (
